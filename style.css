@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+header .logo-icon {
+  margin-right: 5px;
+}
+
+header .navbar-toggler {
+  font-size: 1rem;
+}
+
+/* NAVBAR */
+nav .navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav .navbar-toggler {
+  font-size: 1rem;
+  margin-left: auto;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  color: #252525;
+  transition: 0.3s ease-in-out all;
+}
+
+nav .navbar-nav .nav-item .nav-link:hover {
+  /* color: #252525; */
+  opacity: 0.6;
+}
+
+nav .navbar-nav .nav-item .nav-link.active {
+  font-weight: 600;
+}
+
+/* HERO CONTAINER */
+.hero-container {
+  /* background-image: url(https://wallpaperaccess.com/full/1216348.jpg); */
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/254/599/664/bridge-forest-minimalism-minimalist-wallpaper-preview.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  /* min-height: 600px; */
+  height: calc(100vh - 315px);
+}
+
+.hero-container .hero-inner-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+}
+
+.hero-container .hero-content-container {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-container .hero-content-container h1 {
+  font-weight: 600 !important;
+}
+
+.hero-container .hero-content-container .content {
+  color: #eee !important;
+}
+
+.hero-container .hero-content-container p a {
+  font-size: 15px;
+  padding: 13px 23px;
+}
+
+.hero-container .hero-content-container .hero-content-inner-container {
+  width: 100%;
+  max-width: 767px;
+  padding: 15px;
+}
+
+/* EXTRA INFO  */
+.extra-info-container {
+  background: #69abde;
+  color: #eee;
+  padding: 1.75rem 15px;
+}
+
+.extra-info-container h3 {
+  font-weight: 600;
+}
+
+.extra-info-container .btn {
+  font-size: 15px;
+  padding: 13px 23px;
+}
+
+/* ALBUM */
+.album .placeholder-image-container {
+  width: 100%;
+  position: relative;
+}
+
+.album .placeholder-image-container img {
+  width: 100%;
+  /* position: absolute; */
+}
+
+.album .placeholder-image-container .placeholder-image-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.album .placeholder-image-container h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #eee;
+}
+
+/* FOOTER */
+.footer .nav-link {
+  color: #eee !important;
+}
